@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="479.0" maxWidth="846.0" minHeight="479.0" minWidth="846.0" prefHeight="479.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.InicialController">
+   <children>
+      <ImageView fitHeight="487.0" fitWidth="909.0" layoutX="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/softtech/inicial.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVoltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onVoltarAction" scaleZ="10.0" text="Menu" />
+      <Text fill="#4294d3" layoutX="278.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Negócio: Tech Software Ltda.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#eeebeb" layoutX="362.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano Financeiro:">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fill="#eeebeb" layoutX="61.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Investimentos Fixos e Capital de Giro:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Os investimentos fixos incluem máquinas e equipamentos no valor de R$ 38.000, móveis e utensílios por R$ 7.000, e reformas iniciais por R$ 3.500, totalizando R$ 48.500. O capital de giro necessário é de R$ 15.000, resultando em um total de investimentos de R$ 63.500. As fontes de financiamento são R$ 33.500 em recursos próprios e R$ 30.000 em recursos de terceiros." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="61.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custos Fixos:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incluem aluguel (R$ 4.500), telefone (R$ 300), material de expediente (R$ 2.000), contador (R$ 4.238), energia (R$ 1.182), salários e encargos (R$ 25.000), publicidade e propaganda (R$ 3.000), pró-labore (R$ 8.000), manutenção de máquinas/equipamentos (R$ 500), manutenção predial (R$ 500), seguros (R$ 1.000) e internet (R$ 120), totalizando R$ 50.340." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custos Variáveis: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incluem o SIMPLES Nacional (6%), ICMS (18%), e outros custos (3%). Para uma receita mensal de R$ 50.000, o valor do SIMPLES seria R$ 3.000 e o ICMS para venda de software de prateleira teria uma alíquota entre 17% e 19%. O desenvolvimento de software sob encomenda está sujeito ao ISS, com alíquota entre 2% e 5%, assim como os serviços de suporte e manutenção." wrappingWidth="357.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estudo de Viabilidade Econômico-Financeira: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O estudo de viabilidade projeta a receita de vendas bruta começando em R$ 50.000 no primeiro mês e aumentando em R$ 5.000 mensalmente até o sexto mês, atingindo R$ 75.000. Os custos variáveis incluem SIMPLES e ICMS, enquanto os custos fixos permanecem constantes em R$ 30.282 por mês. A margem de contribuição e o lucro líquido aumentam progressivamente, com um saldo final de caixa projetado de R$ 21.168 no sexto mês e um saldo acumulado de R$ 75.558." wrappingWidth="357.29296875" />
+      <Button fx:id="apostila" layoutX="436.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostilaAction" text="Próximo" />
+      <Button fx:id="apostila2" layoutX="375.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostila2Action" text="Voltar" />
+      <Text fill="WHITE" layoutX="802.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3-3">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

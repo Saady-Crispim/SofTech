@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="479.0" maxWidth="846.0" minHeight="479.0" minWidth="846.0" prefHeight="479.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.InicialController">
+   <children>
+      <ImageView fitHeight="487.0" fitWidth="909.0" layoutX="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/softtech/inicial.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVoltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onVoltarAction" scaleZ="10.0" text="Menu" />
+      <Text fill="#4294d3" layoutX="278.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Negócio: Tech Software Ltda.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#eeebeb" layoutX="264.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ramo de Atividade: Tecnologia da Informação e Consultoria" />
+      <Text fill="#eeebeb" layoutX="61.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empreendedores:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Tech Software Ltda. é conduzida por uma equipe qualificada composta por Zaqueo, estudante de administração e gestão de projetos, Welerson, com cinco anos de experiência na área de tecnologia da informação, e Saady, engenheiro de software com oito anos de experiência em desenvolvimento de sistemas e liderança técnica." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="61.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição do Negócio: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Tech Software Ltda. é uma empresa de desenvolvimento de software que oferece atendimento personalizado e suporte contínuo, com especialização em áreas como banco de dados e inteligência artificial. De porte pequeno/médio, a empresa conta com aproximadamente sete funcionários, incluindo um contador, um profissional de marketing e divulgação, dois desenvolvedores mobile e três desenvolvedores web. A localização física é um pequeno escritório para recepção de clientes, enquanto os funcionários trabalham em regime de home office." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facilidades e Dificuldades Internas e Externas: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A empresa enfrenta várias facilidades e dificuldades tanto internas quanto externas. Entre as facilidades externas, destacam-se a crescente demanda digital e as linhas de incentivo à tecnologia para pequenas empresas oferecidas pelo governo. No entanto, enfrenta a concorrência acirrada com grandes empresas de tecnologia e a rápida e constante evolução tecnológica. Internamente, a equipe experiente e a capacidade de adaptação a novas tecnologias são pontos fortes, enquanto a necessidade de maior capital para expansão inicial e a atual base de poucos clientes são desafios a serem superados." wrappingWidth="357.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Produtos/Serviços:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Tech Software Ltda. oferece desenvolvimento de aplicativos, como aqueles para salões de beleza que ajudam na organização de horários e marcação de horas, e desenvolvimento de sistemas, como sistemas de controle de estoque para empresas do nicho comercial." wrappingWidth="357.29296875" />
+      <Button fx:id="apostila2" layoutX="436.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostila2Action" text="Próximo" />
+      <Button fx:id="apostila3" layoutX="375.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostila3Action" text="Voltar" />
+      <Text fill="WHITE" layoutX="801.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1-3">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

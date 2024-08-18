@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="479.0" maxWidth="846.0" minHeight="479.0" minWidth="846.0" prefHeight="479.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.InicialController">
+   <children>
+      <ImageView fitHeight="487.0" fitWidth="909.0" layoutX="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/softtech/inicial.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVoltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onVoltarAction" scaleZ="10.0" text="Menu" />
+      <Text fill="#4294d3" layoutX="278.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Negócio: Tech Software Ltda.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#eeebeb" layoutX="61.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mercado: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O público-alvo da empresa são empresas de pequeno e médio porte que necessitam de soluções tecnológicas. O potencial de mercado inclui setores como finanças, com foco em segurança e inovação em serviços bancários, e comércio, visando a eficiência em e-commerce e gestão de dados. Futuros clientes potenciais incluem empresas dos setores de finanças, como bancos e fintechs, e do comércio, como lojas, marketplaces e varejistas." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="61.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fornecedores:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entre os principais fornecedores estão a AWS (Amazon Web Services), que oferece serviços de nuvem e infraestrutura escalável, e a Microsoft, que fornece ferramentas de desenvolvimento e plataformas de software, com licenças e assinaturas anuais bem definidas." wrappingWidth="340.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Concorrentes:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Tech Software Ltda. compete com empresas como a TOTVS, que oferece soluções de software de gestão empresarial, e a Stefanini, que presta serviços de TI, incluindo desenvolvimento de software e consultoria estratégica. Ambas as empresas são reconhecidas pela qualidade do atendimento e inovação, com presença em São Paulo e escritórios globais." wrappingWidth="357.29296875" />
+      <Text fill="#d7d7d7" layoutX="456.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Marketing e Vendas:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O plano de marketing e vendas inclui diversas ações, como campanhas em mídias sociais, criação de site, assessoria de imprensa, panfletagem, endomarketing e patrocínios. O objetivo principal é aumentar a visibilidade da empresa e captar novos clientes através de marketing digital e networking. As tarefas incluem a criação de um site em um mês com um orçamento de R$ 5.000, uma campanha de rede social em três meses com um custo de R$ 10.000 e a contratação do Google Ads por um mês ao custo de R$ 1.200, totalizando um orçamento de R$ 16.200 para um prazo de cinco meses." wrappingWidth="357.29296875" />
+      <Button fx:id="apostila3" layoutX="436.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostila3Action" text="Próximo" />
+      <Button fx:id="apostila" layoutX="375.0" layoutY="426.0" mnemonicParsing="false" onAction="#onApostilaAction" text="Voltar" />
+      <Text fill="WHITE" layoutX="802.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2-3">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

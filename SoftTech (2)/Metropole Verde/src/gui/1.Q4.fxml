@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="479.0" maxWidth="846.0" minHeight="479.0" minWidth="846.0" prefHeight="479.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Jogada">
+	<children>
+		<ImageView fitHeight="710.0" fitWidth="890.0" layoutX="-8.0" layoutY="-120.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-93.22222900390625" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-36.0" AnchorPane.topAnchor="-120.0">
+			<image>
+				<Image url="@../../Assets/softtech/marketing%20digital%204.jpeg" />
+			</image>
+		</ImageView>
+		<Label fx:id="labelResult" layoutX="68.0" layoutY="226.0" scaleZ="3.0" />
+		<Button fx:id="A" layoutX="20.0" layoutY="235.0" mnemonicParsing="false" onAction="#ERRADOPRODSERV" text="A) Reduzir custos">
+			<font>
+				<Font name="System Bold" size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="C" layoutX="20.0" layoutY="337.0" mnemonicParsing="false" onAction="#ERRADOPRODSERV" text="C) Recrutar novos funcionários">
+			<font>
+				<Font name="System Bold" size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="D" layoutX="20.0" layoutY="388.0" mnemonicParsing="false" onAction="#ERRADOPRODSERV" text="D) Desenvolver novos produtos">
+			<font>
+				<Font name="System Bold" size="20.0" />
+			</font>
+		</Button>
+		<Button fx:id="B" layoutX="20.0" layoutY="286.0" mnemonicParsing="false" onAction="#CERTOPRODSERV" text="B) Aumentar a visibilidade da empresa e captar novos clientes">
+			<font>
+				<Font name="System Bold" size="20.0" />
+			</font>
+		</Button>
+		<Text layoutX="35.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qual é o principal objetivo do plano de marketing e vendas da Tech Software Ltda.?" textAlignment="CENTER" wrappingWidth="777.1650390625">
+			<font>
+				<Font name="System Bold" size="25.0" />
+			</font>
+		</Text>
+		<Label layoutX="24.0" layoutY="24.0" prefHeight="28.0" prefWidth="293.0" text="Questões Voltadas a Produto e Serviço" textFill="#ff5e03fa">
+			<font>
+				<Font name="System Bold Italic" size="16.0" />
+			</font>
+		</Label>
+      <Button fx:id="btnVoltar" layoutX="789.0" layoutY="12.0" mnemonicParsing="false" onAction="#onVoltarAction" text="Menu" />
+	</children>
+</AnchorPane>
